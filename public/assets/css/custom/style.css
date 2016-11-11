@@ -1,0 +1,65 @@
+body{
+	padding-bottom: 25px;
+}
+
+.navbar {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.navbar, .navbar.navbar-default {
+  background-color: #00BFDE;
+  border-bottom-color: #0000ff;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .navbar-left {
+    float: left !important;
+  }
+  .navbar-right {
+    float: right !important;
+    margin-right: 25px;
+  }
+  .navbar-right ~ .navbar-right {
+    margin-right: 0;
+  }
+}
+
+.carousel {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.row {
+  margin: 10px;
+ }
+
+.setcol {
+	padding-right:50px;
+}
+
+.setrow {
+	margin-top:0px;
+}
+
+.avatar {
+  width: 64px;
+  height: 64px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  border-radius: 150px;
+}
+
+.form-horizontal .control-label {
+  text-align: left;
+}
